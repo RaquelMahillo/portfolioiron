@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(63, 216, 216, 0.5);
+    padding: 20px;
+    color: white;
+
+}
+
+
+.head img {
+    width: 40px%;
+    height: 40px;
+    margin: 0 40px 0 0;
+}
+
+.head p {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 40px;
+    transition: 0.3s;
+
+}
+
+.head p:hover {
+    text-decoration: underline;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./micareto.png);
+    z-index: 1;
+}
+
+.raquelmahillo {
+    position: absolute;
+    top: 255%;
+    left: 60%;
+    width: 700px;
+    /* no consigo que deje de estar aplastado el ancho, he probado todo */
+    z-index: 1;
+}
+
+.uxdesigner {
+    position: absolute;
+    top: 430%;
+    left: 80%;
+    color: turquoise;
+    font-size: 40px;
+
+}
+
+.contact {
+    position: absolute;
+    top: 1200%;
+    right: 0px;
+    margin: 0 60px 0 0;
+    width: 800px;
+}
